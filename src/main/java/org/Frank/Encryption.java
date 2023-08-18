@@ -18,9 +18,9 @@ public class Encryption {
 //        System.out.println("Decrypted message: " + decryptedMessage);
 //    }
 //
-//    public static String encrypt(String message, int shift) {
-//        StringBuilder encryptedMessage = new StringBuilder();
-//        message = message.toLowerCase();
+    public static String encrypt(String message, int shift) {
+        StringBuilder encryptedMessage = new StringBuilder();
+        message = message.toLowerCase();
 //
 //        for (int i = 0; i < message.length(); i++) {
 //            char c = message.charAt(i);
