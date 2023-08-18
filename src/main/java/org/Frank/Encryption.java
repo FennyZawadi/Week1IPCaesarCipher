@@ -10,9 +10,9 @@ public class Encryption {
 
         System.out.print("Enter the shift value for the message:   ");
         int shift = scanner.nextInt();
-//        String encryptedMessage = encrypt(message, shift);
-//
-//        System.out.println("Encrypted message: " + encryptedMessage);
+        String encryptedMessage = encrypt(message, shift);
+
+        System.out.println("Encrypted message: " + encryptedMessage);
 //
 //        String decryptedMessage = decrypt(encryptedMessage, shift);
 //        System.out.println("Decrypted message: " + decryptedMessage);
