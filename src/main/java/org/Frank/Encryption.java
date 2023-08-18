@@ -27,7 +27,7 @@ public class Encryption {
             if (Character.isLetter(c)) {
                 c = (char) ((c - 'a' + shift + 26) % 26 + 'a');
             }
-//            encryptedMessage.append(Character.toUpperCase(c)); // Convert output back to uppercase
+            encryptedMessage.append(Character.toUpperCase(c)); // Convert output back to uppercase
 //        }
 //        return encryptedMessage.toString();
 //    }
