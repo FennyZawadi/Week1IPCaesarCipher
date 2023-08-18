@@ -21,12 +21,12 @@ public class Encryption {
     public static String encrypt(String message, int shift) {
         StringBuilder encryptedMessage = new StringBuilder();
         message = message.toLowerCase();
-//
-//        for (int i = 0; i < message.length(); i++) {
-//            char c = message.charAt(i);
-//            if (Character.isLetter(c)) {
-//                c = (char) ((c - 'a' + shift + 26) % 26 + 'a');
-//            }
+
+        for (int i = 0; i < message.length(); i++) {
+            char c = message.charAt(i);
+            if (Character.isLetter(c)) {
+                c = (char) ((c - 'a' + shift + 26) % 26 + 'a');
+            }
 //            encryptedMessage.append(Character.toUpperCase(c)); // Convert output back to uppercase
 //        }
 //        return encryptedMessage.toString();
