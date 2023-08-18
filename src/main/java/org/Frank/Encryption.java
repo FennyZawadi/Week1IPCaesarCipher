@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class Encryption {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-//
-//        System.out.print("Enter message for encryption:   ");
-//        String message = scanner.nextLine();
+
+        System.out.print("Enter message for encryption:   ");
+        String message = scanner.nextLine();
 //
 //        System.out.print("Enter the shift value for the message:   ");
 //        int shift = scanner.nextInt();
