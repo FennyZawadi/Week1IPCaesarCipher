@@ -7,9 +7,9 @@ public class Encryption {
 
         System.out.print("Enter message for encryption:   ");
         String message = scanner.nextLine();
-//
-//        System.out.print("Enter the shift value for the message:   ");
-//        int shift = scanner.nextInt();
+
+        System.out.print("Enter the shift value for the message:   ");
+        int shift = scanner.nextInt();
 //        String encryptedMessage = encrypt(message, shift);
 //
 //        System.out.println("Encrypted message: " + encryptedMessage);
