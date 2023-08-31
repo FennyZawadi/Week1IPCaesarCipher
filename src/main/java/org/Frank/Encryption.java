@@ -13,11 +13,11 @@ public class Encryption {
         String encryptedMessage = encrypt(message, shift);
 
         System.out.println("Encrypted message: " + encryptedMessage);
-//
-//        String decryptedMessage = decrypt(encryptedMessage, shift);
-//        System.out.println("Decrypted message: " + decryptedMessage);
-//    }
-//
+
+        String decryptedMessage = decrypt(encryptedMessage, shift);
+        System.out.println("Decrypted message: " + decryptedMessage);
+    }
+
     public static String encrypt(String message, int shift) {
         StringBuilder encryptedMessage = new StringBuilder();
         message = message.toLowerCase();
