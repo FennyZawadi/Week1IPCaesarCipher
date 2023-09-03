@@ -27,14 +27,14 @@ public class Encryption {
             if (Character.isLetter(c)) {
                 c = (char) ((c - 'a' + shift + 26) % 26 + 'a');
             }
-            encryptedMessage.append(Character.toUpperCase(c)); // Convert output back to uppercase
+            encryptedMessage.append(Character.toUpperCase(c)); // Converting output back to uppercase
         }
         return encryptedMessage.toString();
     }
 
     public static String decrypt(String message, int shift) {
         StringBuilder decryptedMessage = new StringBuilder();
-        message = message.toLowerCase(); // Convert to lowercase before decryption
+        message = message.toLowerCase(); // Converting to lowercase before decryption
 
         for (int i = 0; i < message.length(); i++) {
             char c = message.charAt(i);
@@ -44,6 +44,6 @@ public class Encryption {
             }
             decryptedMessage.append(c);
         }
-        return decryptedMessage.toString().toUpperCase(); // Convert entire result to uppercase
+        return decryptedMessage.toString().toUpperCase(); // Converting entire result to uppercase
     }
 }
